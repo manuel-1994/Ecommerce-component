@@ -4,10 +4,154 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f160db1508.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/style.css">
   <title>Ecommerce</title>
 </head>
 <body>
-  <h1>Ecommerce</h1>
+  <main class="main">
+    <header class="header">
+      <nav class="nav">
+        <a class="logo" href="#">
+          <img class="logo__img" src="./images/white_logo_transparent_background.png" alt="logo">
+        </a>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <button class="button-search">
+              <i class="fa-solid fa-magnifying-glass icon"></i>
+            </button>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="fa-solid fa-cart-shopping icon"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1 class="title">Computadoras</h1>
+    <nav class="nav nav-filter">
+      <ul class="nav__list">
+        <li class="nav__item nav__item-filter">FILTRO:</li>
+        <li class="nav__item">
+          <a class="nav__link nav__link-filter" href="#">LO MAS NUEVO</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link-filter" href="#">PRECIO</a>
+        </li>
+      </ul>
+    </nav>
+
+    <hr>
+    <div class="content">
+      <aside class="aside">
+        <nav class="nav-aside">
+          <ul class="nav__list">
+            <li class="nav__item nav__item-aside">
+              <a class="nav__link nav__link-aside" href="#">Electronicos</a>
+            </li>
+            <li class="nav__item nav__item-aside">
+              <a class="nav__link nav__link-aside" href="#">Computadoras</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <section class="products">
+        <article class="card">
+          <figure class="card__figure">
+            <img class="card__img" src="./images/laptop.jpg" alt="laptop">
+          </figure>
+          <div class="wrapper">
+            <div class="card__body ">
+              <h2 class="card__title">Producto 1</h2>
+              <p class="card__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, perspiciatis.</p>
+            </div>
+            <div class="card__footer">
+              <h3 class="card__price">0$</h3>
+              <button class="button">Agregar</button>
+            </div>
+          </div>
+
+        </article>
+
+        <article class="card">
+          <figure class="card__figure">
+            <img class="card__img" src="./images/laptop.jpg" alt="laptop">
+          </figure>
+          <div class="wrapper">
+            <div class="card__body ">
+              <h2 class="card__title">Producto 1</h2>
+              <p class="card__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, perspiciatis.</p>
+            </div>
+            <div class="card__footer">
+              <h3 class="card__price">0$</h3>
+              <button class="button">Agregar</button>
+            </div>
+          </div>
+
+        </article>
+
+        <article class="card">
+          <figure class="card__figure">
+            <img class="card__img" src="./images/laptop.jpg" alt="laptop">
+          </figure>
+          <div class="wrapper">
+            <div class="card__body ">
+              <h2 class="card__title">Producto 1</h2>
+              <p class="card__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, perspiciatis.</p>
+            </div>
+            <div class="card__footer">
+              <h3 class="card__price">0$</h3>
+              <button class="button">Agregar</button>
+            </div>
+          </div>
+
+        </article>
+
+        <article class="card">
+          <figure class="card__figure">
+            <img class="card__img" src="./images/laptop.jpg" alt="laptop">
+          </figure>
+          <div class="wrapper">
+            <div class="card__body ">
+              <h2 class="card__title">Producto 1</h2>
+              <p class="card__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, perspiciatis.</p>
+            </div>
+            <div class="card__footer">
+              <h3 class="card__price">0$</h3>
+              <button class="button">Agregar</button>
+            </div>
+          </div>
+
+        </article>
+
+        <article class="card">
+          <figure class="card__figure">
+            <img class="card__img" src="./images/laptop.jpg" alt="laptop">
+          </figure>
+          <div class="wrapper">
+            <div class="card__body ">
+              <h2 class="card__title">Producto 1</h2>
+              <p class="card__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, perspiciatis.</p>
+            </div>
+            <div class="card__footer">
+              <h3 class="card__price">0$</h3>
+              <button class="button">Agregar</button>
+            </div>
+          </div>
+
+        </article>
+
+     
+      </section>
+    </div>
+  </main>
 </body>
 </html>
